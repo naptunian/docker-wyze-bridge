@@ -1,6 +1,6 @@
 services:
     wyze-bridge:
-        container_name: wyze-bridge
+        container_name: wyze-bridge-fork
         restart: unless-stopped
         image: mrlt8/wyze-bridge:latest
         ports:
